@@ -13,7 +13,6 @@ $('body').append('<p>Copyright - Holberton School</p>');
 
 $('body').prepend('<div id="logo"></div>')
 
-// $('button').on('click', updateCounter);
 $('button').on('click', _.debounce(updateCounter, 500));
 
 function updateCounter() {
